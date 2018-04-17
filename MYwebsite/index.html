@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--https://habrahabr.ru/post/126207/  figures-->
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/contacts.css">
+		<link rel="stylesheet" type="text/css" href="css/flexboxgrid.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<title>ALprog</title>
+		<script>
+		$(document).ready(function(){
+			console.log('jquery');
+			$('.carousel-portfolio').owlCarousel({
+				items: 1
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<div class="menu-toggle">
+			<div class="one drop"></div>
+			<div class="two drop"></div>
+			<div class="three drop"></div>
+		</div>
+		<nav class="row center-xs middle-xs">	
+			<ul class="navigation hidden">
+				<li>Home</li>
+				<li>About</li>
+				<li>Works</li>
+				<li>Contact</li>
+			</ul>
+		</nav>
+		
+		
+		<header>		
+			<img class="img-cup" src="sources/3.png">
+			<img class="img-stick" src="sources/10.png">
+			<img class="img-list" src="sources/111.png">
+			<img class="img-flower" src="sources/flow.png">
+			<!--<img class="img-paper" src="sources/65658.png">
+			<img class="img-glasses" src="sources/7.png">-->
+			<img class="img-phone" src="sources/6.png">
+			<img class="img-picture" src="sources/picture.png">
+			<img class="img-mac" src="sources/mac.png">
+			<h1 class="h1">To be a programmer</h1>
+			<p class="greeting">Hello! I'm glad to welcome you on my website. I want to represent to you my activity.
+			 Here are my works and technical information about my skills.  </p>
+			<p class="principle"> #include the &#60;imagination&#62; and work hard.</p>
+		</header>
+		
+		<div class="portfolio">
+		<a name="portfolio"></a>
+			<h2> Portfolio</h2>
+			<h5> My creation is my life</h5>
+			<div class="owl-carousel carousel-portfolio">
+				<div class="row center-xs">
+					<div class="project">
+						<div class="display-img">
+							<video autoplay>
+								<source src="sources/video/adeaters.mp4" type="video/mp4">
+							</video>
+							<div class="display-bottom"></div>
+						</div>
+						<div class="phone-img">
+							<video autoplay>
+								<source src="sources/video/adeaters_mobile.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+				</div>
+				<div class="project row center-xs">
+					<div class="display-img">
+						<video autoplay>
+							<source src="sources/video/TES.mp4" type="video/mp4">
+						</video>
+						<div class="display-bottom"></div>
+					</div>
+				</div>
+				<div class="project row center-xs">
+					<div class="display-img">
+						<video autoplay>
+							<source src="sources/video/FodiField.mp4" type="video/mp4">
+						</video>
+						<div class="display-bottom"></div>
+					</div>
+					<div class="phone-img">
+						<video autoplay>
+							<source src="sources/video/FodiField-mobile.mp4" type="video/mp4">
+						</video>
+					</div>
+				</div>
+				<div class="project row center-xs">
+					<div class="display-img">
+						<video autoplay>
+							<source src="sources/video/gemgow.mp4" type="video/mp4">
+						</video>
+						<div class="display-bottom"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<footer></footer>
+	</body>
+</html>
