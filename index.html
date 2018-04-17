@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--https://habrahabr.ru/post/126207/  figures-->
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/contacts.css">
+		<link rel="stylesheet" type="text/css" href="css/flexboxgrid.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<title>ALprog</title>
+		<script>
+		$(document).ready(function(){
+			console.log('jquery');
+			$('.carousel-portfolio').owlCarousel({
+				items: 1
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<div class="menu-toggle">
+			<div class="one drop"></div>
+			<div class="two drop"></div>
+			<div class="three drop"></div>
+		</div>
+		<nav class="row center-xs middle-xs">	
+			<ul class="navigation hidden">
+				<li>Home</li>
+				<li>About</li>
+				<li>Works</li>
+				<li>Contact</li>
+			</ul>
+		</nav>
+		
+		
+		<header>		
+			<img class="img-cup" src="sources/3.png">
+			<img class="img-stick" src="sources/10.png">
+			<img class="img-list" src="sources/111.png">
+			<img class="img-flower" src="sources/flow.png">
+			<!--<img class="img-paper" src="sources/65658.png">
+			<img class="img-glasses" src="sources/7.png">-->
+			<img class="img-phone" src="sources/6.png">
+			<img class="img-picture" src="sources/picture.png">
+			<img class="img-mac" src="sources/mac.png">
+			<h1 class="h1">To be a programmer</h1>
+			<p class="greeting">Hello! I'm glad to welcome you on my website. I want to represent to you my activity.
+			 Here are my works and technical information about my skills.  </p>
+			<p class="principle"> #include the &#60;imagination&#62; and work hard.</p>
+		</header>
+		<div class="portfolio">
+		<a name="portfolio"></a>
+			<h2> Portfolio</h2>
+			<h5> My creation is my life</h5>
+			<div class="owl-carousel carousel-portfolio">
+				<div class="project row center-xs">
+					<div class="display-img">
+						<img class="img-portfolio" src="sources/macboock.png">
+						<video autoplay>
+							<source src="sources/video/adeaters.mp4" type="video/mp4">
+						</video>
+					</div>
+				</div>
+				<div class="project row center-xs">
+					<div class="display-img">
+						<img class="img-portfolio" src="sources/macboock.png">
+						<video autoplay>
+							<source src="sources/video/adeaters.mp4" type="video/mp4">
+						</video>
+					</div>
+				</div>
+				<div class="project row center-xs">
+					<div class="display-img">
+						<img class="img-portfolio" src="sources/macboock.png">
+						<video autoplay>
+							<source src="sources/video/adeaters.mp4" type="video/mp4">
+						</video>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="resume">
+			<a name="resume"></a>
+			<h2> Resume</h2>
+			<div class="resume-main">
+				<div class="hexagon">
+					<h3> Main information</h3>
+					<p>Date of birth: 15.05.1998</p>
+					<p>Address: 5 Lane Kowalski, apt. 428, Kiev, 03057, Ukraine</p>
+					<p>Phone number: +38 (050) 814 61 39</p>
+					<p>Email: alinagritsay22@gmail.com</p>
+				</div>
+			</div>
+			<div class="resume-education">
+				<div class="hexagon">
+					<h3>Education</h3>
+					<p  class="p-education">The 4-th year student of National Technical University of Ukraine "Igor Sikorsky
+					Kyiv Polytechnic Institute", Institute for Applied System Analysis.</p>
+				</div>
+			</div>
+			<div class="resume-about">
+				<div class="hexagon">
+					<h3>About myself</h3>
+					<p>Responsibility, creative, imaginative, determination, energetic,
+					commitment, sociability, work under pressure and to tight deadlines,
+					quickly fit into any existing team of developers.</p>
+				</div>
+			</div>
+			<div class="resume-technical">
+				<div class="hexagon1">
+					<h3>Technical Skills</h3>
+					<p>Development languages: C++, PHP, SQL, JavaScript, HTML, CSS, JSON.</p>
+					<p>Databases: MySQL, SQL Server, MongoDB.</p>
+					<p>Development Software: WebStorm, Qt Creator, SublimeText,Photoshop, Git, GitLab.</p>
+					<p>Technologies: Node.js, Express, Mongoose, AJAX, Bootstrap, Sass, SCSS, jQuery, React, Electron.</p>
+					<p>Application / Web Servers: Apache, Zend Server, LAMP.</p>
+					<p>Cover letter: https://github.com/Alina177/c-c</p>
+				</div>
+			</div>
+				<img class="I-am" src="sources/Iam.jpg">
+		</div>
+		<a name="contacts"></a>
+		<div class="contacts">
+
+			<div class="forms">
+					<div class="wrapper-form">
+					</div>
+						<h3 class="write">Write to me! </h3>
+						<input id="lab" type="text" name="name" placeholder="Name">
+						<input id="lab" type="text" name="phone" placeholder="+(380) xx xxxxxxx">
+						<input id="lab" type="email" name="email" placeholder="mail@.xx.com">
+						<textarea>Type your message</textarea>
+						<br>
+						<button class="button-form">Send</button>
+				</div>
+		</div>
+		<footer></footer>
+		<script type="text/javascript" src="js/contacts.js"></script>
+	</body>
+</html>

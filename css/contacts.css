@@ -1,0 +1,85 @@
+.contacts{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 20px auto;
+
+	/*background: #ccc;*/
+	color: #ededed;
+}
+.forms{
+	width: 20%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin-top: 10%;
+	box-sizing: border-box;
+
+}
+.wrapper-form{
+	position: absolute;
+	top:0;
+	left: 0;
+	height: 360px;
+	width: 115%;
+	padding: 0;
+	margin: 0px 30px 10px -15px;
+	background: #607D8B;
+}
+.forms input, textarea{
+	display: inline;
+	height: 35px;
+	padding: 3px 15px;
+	margin: 10px 0;
+
+	border: 2px solid #B0BEC5;
+	box-shadow:  0 0  15px  5px rgba(0,0,0,.3);
+	box-sizing: border-box;
+	background: #90A4AE;
+	color: #455A64;
+	font-weight: 600;
+}
+textarea{
+	height: 50px;
+	color: #ddd;
+}
+.forms input::placeholder{
+	color: #ddd;
+	padding-left: 10px;
+	font-size: 14px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #ddd;
+  padding-left: 10px;
+  font-size: 14px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #ddd;
+  padding-left: 10px;
+  font-size: 14px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #ddd;
+  padding-left: 10px;
+  font-size: 14px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #ddd;
+  padding-left: 10px;
+  font-size: 14px;
+}
+.forms label, .forms h3{
+	display: inline-block;
+	color: #455A64;
+	padding-bottom: 5px;
+}
+.button-form{
+	width: 50%;
+	height: 35px;
+
+	background: #FF5252;
+	border: 2px solid #FF8A80;
+	color: #ededed;
+	letter-spacing: 2px;
+	font-size: 16px;
+}
